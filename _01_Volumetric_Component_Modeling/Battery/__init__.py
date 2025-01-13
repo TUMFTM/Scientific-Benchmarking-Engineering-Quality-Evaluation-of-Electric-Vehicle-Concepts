@@ -1,0 +1,7 @@
+# Function to connect the different path elements so that the subfolder struct is working
+# Import methods
+from .calc_battery_space_dimensions_underfloor import calc_battery_space_dimensions_underfloor
+from .calc_battery_space_dimensions_underfloor_lowfloor import calc_battery_space_dimensions_underfloor_lowfloor
+from .calc_battery_space_dimensions_secondrow import calc_battery_space_dimensions_secondrow
+from .calc_battery_space_dimensions_tunnel import calc_battery_space_dimensions_tunnel
+from .calc_battery_electric_scheme import calc_battery_electric_scheme

@@ -1,0 +1,8 @@
+# Function to connect the different path elements so that the subfolder struct is working
+# Import methods
+from .calc_ground_clearance import calc_ground_clearance
+from .calc_dimensional_concept import calc_dimensional_concept
+from .calc_passenger_compartment_z import calc_passenger_compartment_z
+from .calc_passenger_compartment_x_first_seatrow import calc_passenger_compartment_x_first_seatrow
+from .calc_passenger_compartment_x_second_seatrow import calc_passenger_compartment_x_second_seatrow
+from .calc_passenger_compartment_y import calc_passenger_compartment_y
